@@ -1,0 +1,482 @@
+body{ /*background-color: #FF9966;
+      background-image: url(../image/bg1.png); */
+      background:url(../image/bg2.png) repeat transparent ;
+      margin: auto;
+}
+
+p{font-family:"Times New Roman", Times, serif}
+p.serif{font-family:"Times New Roman",Times,serif;}
+p.sansserif{font-family:Arial,Helvetica,sans-serif;}
+p.sserif{font-family:Sans-serif ;}
+
+/* This section is for main body style */
+.mbody { background: white;
+    width: 850px;
+    position: relative;
+    margin: auto ;
+    padding: 50px;
+    margin-top: -40px;
+    margin-bottom:-60px;
+    box-shadow: 0px 70px 50px #888888;
+    
+-moz-border-radius: 1em 4em 1em 4em;
+border-radius: 5em 5em 0em 0em;
+    
+}
+
+.time {float: left;
+	  display: inline; 
+	  padding: 0px;
+	  margin-top: -4px;
+	  margin-bottom: -17px; }
+
+#switchcss {  float: right; 
+			 display: block;
+			  padding: 0px;
+			  margin-top: -20px;
+			  margin-bottom: -17px;
+                          
+	}
+#switchcss > ul>li {
+	list-style-type:none;
+    list-style: none;
+	display: inline; 
+	overflow:hidden;
+	padding: 0px;
+	margin:auto;
+        
+	 }
+		
+.css1 { background: #E0E0E0;
+		}			
+		
+.css2 { background: #FF6633;
+		
+		}
+
+.css1, .css2 {
+    border-bottom: 0px solid;
+    border-radius:3px;
+    box-shadow: 0px 0px 10px #888888;
+    
+    }		
+
+/*This is the header section */   
+.head{
+    background:url(../image/G-Lunar-Supercomputer-Complex.jpg ) repeat ;
+    display:block;
+    height: 180px;
+    width:auto; /*this allowed the image to fix in to the div table with out*/
+    margin: auto; /* this inherits from the main body */
+    padding-top: 0px; /* this makes the box bigger */
+    overflow: auto;
+    
+    
+    
+    clear:both;
+            }        
+            
+ .logo{
+    display: inline;
+    float: left;
+    width:  auto;
+    padding:30px;
+    margin:auto;
+    border-radius: 900px;
+     box-shadow: 4px 6px 95px #888888;
+  border-radius: 10em 10em 10em 10em;
+             
+            }
+.headertxt{
+    
+    background: #FF6633;
+    
+    float: right;
+    padding: 5px; /* this make the box header in my html bigger */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-decoration: blink;
+      
+    }
+
+
+
+
+/*this is the nav and the links section */
+.navcon{ 
+    background-color: #FF9966;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    border-bottom: 0px solid;
+    border-radius:3px;
+    box-shadow: -0px -4px 10px #888888;
+    position:relative;
+    z-index: 10;
+    
+        
+        
+        
+    }
+   
+.navcon > nav > ul >li> ul{padding-top: 3px;
+                        margin-left:7px;
+                        box-shadow: -0px -4px 10px  #FF9966;
+                                               
+                        } /* margin got the drop down manue to appear in the middle
+                                                               */
+    
+.navcon > nav >  ul 
+{  
+    padding: 10px; /* this gives padding to the main nav */
+    margin: auto;
+    list-style-type:none;
+    list-style: none;        
+    overflow:hidden;
+     
+    }
+
+.navcon > nav >ul >li
+{
+    float:left;
+    
+  
+    
+    }
+    
+
+
+
+
+.navcon > nav > ul > li:hover a {
+      padding:  1px; /* got the glossing looking feel for the main manu */
+      border-radius: 10px;
+      color: rgb(62,32,0);
+     box-shadow: 4px 6px 45px #888888;
+     border-radius: 0em 5em 0em 5em;
+
+    }
+                        
+
+
+.navcon > nav > ul>  li 
+{
+    text-align: center;
+    font-size: 16px;
+    display:block;
+    width: 120px;
+   
+}
+
+.navcon nav ul li a  {
+    display: block; 
+    color: #000000 ; }
+     
+
+     
+     
+/* Drop down Manue */
+.navcon  >nav > ul > li >ul {
+    list-style-type: none;
+    padding-top: 0px;
+    display: none;
+    border-top: 10px solid #FF9966; /* that the border shows betweent he main nav and the drop down nav */
+    border-radius:5px;
+    Xbackground: #FF6633; /*this is the background  */
+    background: rgba(633, 99, 0, 0.9);
+    
+    
+    }
+           
+.navcon >nav >ul >li:hover ul  {
+  clear: both;
+  display: block;
+  position: absolute;
+  height: auto;
+      
+
+
+  }
+  
+        
+.navcon nav ul li:hover ul li {
+    
+  float: none;    }                 /* this allows the text to drop down*/
+        
+
+      
+.navcon > nav > ul > li > ul > li:hover a {background: url('menu_line.png') no-repeat scroll right 5px transparent; /*  this will pear when link is hovered over*/
+    color: #FFCCFF ; padding-left: 0px; padding:4px;  } /*this is the color will show when the drop down manue buttons is hovered over */
+
+.navcon > nav > ul >li >ul > li {
+    padding:3px; /* padding between the drop */
+    width: 130px;
+    margin: auto
+}
+
+.navcon nav ul li ul a{
+    Xbackground: #FF6633;
+    text-align: left;
+    display: block;
+}
+
+
+a:link {color: #757575   ;}      /* unvisited link */
+a:visited {} /* visited link */
+a:hover {color:#FF6633 ;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+    a:link {text-decoration:none ;}
+    a:visited {text-decoration:none;}
+    a:hover {text-decoration:underline;}
+    a:active {text-decoration:underline;}  
+        
+/* this is where ---Navigation bar EDN---------*/
+
+
+
+/* Body Section starts here */
+.bodytxt{ 
+    /*display: inline-block;*/
+    float: left;
+	width: 68%;
+    Xwidth: 645px;
+    padding:5px;
+    margin:auto;
+    
+    
+}
+
+.short {
+background-image:url('image/more.jpg');
+  background:rgb(192,192,192);
+  width: 100px; 
+  display: inline ; 
+  border:0px solid;
+  border-radius:2px;
+  margin: 3px;
+}
+
+.wraptxt {float: right;
+		  margin: 10px;
+		  margin-left: 10px;
+		  margin-bottom: 10px; }
+                  
+                  
+                  
+                  
+
+.slideshow {clear:both;
+            margin: auto;}
+            
+            
+
+
+.art1{ background: none;
+    width:100%;
+    float: left; 
+    color: #000000 ;
+    
+    }
+
+.arth2{color: #686868; }
+/* This is where the body section ends */
+
+/* Right side div for add and other navigation for the page  */
+
+.right{
+    
+    Xbackground-color:#E0E0E0;
+    background:url(../image/bg2.png) repeat transparent ;
+    padding:13px;
+    float: right;
+      Xwidth: 25%; /*THIS PUTS THE TWO Side */
+    width: 180px;
+    margin:10px;
+    border-bottom: 0px solid;
+    border-radius:20px;
+    overflow: auto;
+    
+   
+    
+}  
+}
+
+/*this is the side manu style for supercomputer page */
+
+
+.right > ul{ 
+	 list-style-type: none;
+	 float:left;
+	 overflow: hidden;
+	 background: #E0E0E0;
+	 border: 6px;
+	 border-radius: 5px;
+	 display: block;
+         
+          
+	 
+	 }
+.right >  nav>  ul> li {clear: both;
+    text-align: left;
+    font-size: 15px;
+    list-style-type: none;
+    list-style: none;        
+    
+    
+   
+}
+.hsubnavcom{ text-align: left; 
+	     color:#FF6633;
+	     margin-bottom: 3px;
+	     box-shadow: 10px 10px 30px #888888;  /*gives shadows around the header of sub maue nav bar for supercomputer */
+            
+             
+             
+             }
+
+.right>nav> ul> li {
+    display: block; 
+    color: #FF6633;
+    box-shadow: 4px 6px 45px #888888; /* this shadow box gave the buttons shadown */
+    
+    } 
+    
+.right > nav > ul > li{  padding:3px;
+		    width: 130px;
+		    margin: auto;
+		    list-style-type:none;
+		    list-style: none;        
+		    overflow:hidden;}
+		    
+.right > nav> ul li:hover {background: darkgray; 
+}
+.right > nav> ul> li > a{ width: 150px;
+		float:none;
+		color: #757575;
+		 text-align: left;
+                 display: block; }
+		
+.right > nav > ul li:hover a {
+    color: #987575 ; 
+   }
+     
+
+/* this is the right site link */
+.right	a:link {color: #757575;    ;}      /* unvisited link */
+.right	a:hover {color:orange ;}  /* mouse over link */
+.right	a:active {color:green;}  /* selected link */
+
+
+.footer{background-color: rgba(255,  94,  0,  0.7);background: rgba(255,  94,  0,  0.7);color: rgba(355,  300,  0,  0.8);}
+
+
+/*.footer{background-color: rgba(255,  94,  0,  0.7);background: rgba(255,  94,  0,  0.7);color: rgba(255,  94,  0,  1);} */
+/* this is where my footer start */
+.footer{
+    clear:both;
+    display: block;
+    
+   /* background-color:#FF9966;
+    Xbackground-color:#FF6633  ; */
+    padding: 10px;
+    margin: auto;
+    border-bottom: 0px solid;
+    border-radius:8px;
+    overflow: auto;
+    border-radius: 0em 10em 0em 8em;
+      }
+
+	  
+	  
+	  
+.footer footernav{
+    display: inline;
+    width:250px;
+    height: auto;
+    margin:auto;
+}
+.footernav  a.link  {color: blue;}
+.footernav  a.hover  {color: black;}
+
+.footer footer2{
+    width:750px;
+    margin:auto;
+    border-bottom: 9px solid;
+    border-radius:8px;
+    
+
+
+		}
+	  
+.quicklink{
+    float:left;
+    width:200px;
+    margin:auto;
+
+}
+
+.quicklink ul { 
+}
+
+.quicklink ul li {
+    list-style-image:url('image/icone.png');
+    padding-left: 3px;
+    z-index:auto;
+    
+    
+    
+   
+
+}
+
+ .quicklink , .askquestion, .right { 
+    
+    font-family: Comic Sans MS, "cursive", sans-serif;
+    list-style-position: outside;
+    } /*This is the font used for the side right side bar and the botton footer2*/
+
+.contact{ 
+    float:right;
+    width:250px;
+    margin:auto;
+    
+}
+
+/* contact from starts here  */
+.contact ul li { 
+    padding-left: 10px;
+
+}
+
+.form input {
+    display: table-cell;	
+}	
+.form label {
+    display: table-cell;
+}	
+
+/* contact from ends here  */
+
+.askquestion{
+    float:left;
+    width:200px;
+    margin:auto;
+    
+}
+
+.footer2        a:link {color: black   ;}      /* unvisited link */
+.footer2	a:visited {color:#300000;} /* visited link */
+.footer2	a:hover {color:#757575 ;}  /* mouse over link */
+.footer2	a:active {color:orange;}  /* selected link */	
+	
+/*this the copy right section*/
+	
+.copyright{
+    width: 800px;
+    margin: auto ;
+    padding-top:4px;
+    font-size: 12px;
+	}
+	
+

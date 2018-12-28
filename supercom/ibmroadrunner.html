@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>The Super Computer</title>
+				<script src="../javascript/switchcss.js"></script>
+				<link rel="stylesheet" href="../css/css1.css" title="Style1">  
+				<link rel="alternate stylesheet" href="../css/css2.css" title="Style2">	
+				<link rel="stylesheet" href="../slideshow/slideshow.css" />
+				<link rel="stylesheet reade more" href="../javascript/readmore.js" title="readmore"> 
+				<script src="../javascript/jquery-1.9.1.min.js"></script>
+				
+	
+<script>
+
+$(document).ready(
+  function () {
+    $("span.short").click(
+      function() {
+        $(this).siblings().show( 800);
+      }
+    );
+    $("span.long").click(
+      function() {
+        $(this).hide( 800);
+      }
+    );
+    $("span.long").hide();
+  }
+);
+</script>						
+	</head>
+
+<body>
+<div class="mbody">
+<div class="time"<p>Hello. You arrived at this page at
+<script>
+  document.write( new Date() + ".");
+</script> </p></div>
+
+<div id= "switchcss">
+	<ul>
+		<li class="css1"><a href="#" onclick="setActiveStyleSheet('Style1')">Style One</li></a>
+		<li class="css2"><a href="#" onclick="setActiveStyleSheet('Style2')">Style Two</li></a>
+		
+	</ul>
+
+</div> 
+
+	<div class="head"> 
+		<div class="logo">
+			<img src="../image/logo.jpg" width="70" height="70">
+		</div>
+		<div class="headertxt">
+			<p class="contd"><span style="color:purple">Contact us for further info:<br>Tel: 0207 414 645 <br> Email:</span><a href="">supercom@hotmail.com </a></p> 
+		</div>
+		
+		
+	</div> 
+
+	
+	
+	<div class ="navcon">
+		<nav class="nav">
+				<ul>
+				  <li><a href="../index.html">Home</a></li>
+				  
+				  
+				  <li><a href="supercom.html">Supercomputers
+				  
+				  
+					<ul>
+					<li>    <a href="ibmroadrunner.html">IBM Roadrunner</a> </li>
+					<li>	<a href="IBMsequoia.html">IBM Sequoia</a> 	</li>
+					<li>	<a href="crayinc.html">Cray Inc</a> 		</li>
+					<li>	<a href="Jaguar.html">Jaguar</a>		</li>
+					<li>	<a href="titan.html">Titan</a>			</li>
+					<li>	<a href="tianhe_I.html">Tianhe-I</a> 		</li>
+					<li>	<a href="tianhe_2.html ">Tianhe-2 </a> 		</li>
+					<li>	<a href="kcomputer.html">K computer</a>		</li>
+					<li>	<a href="mira.html">IBM Mira</a>		</li>
+					<li>	<a href="supermuc.html"> SuperMUC</a>		</li>
+					
+					      
+				      </ul>
+				  </a>
+
+				  
+				  </li>
+				  <li><a href="../history/comhistory.html">History</a></li>
+				  <li><a href="../about_this_site/about_this_site.html">About this site</a></li>
+				  <li><a href="../contact/contact.html">Contact Us</a></li>
+				  <li><a href="../other_links/otherlinks.html">Other Links</a></li>
+				
+				</ul>
+		</nav>
+	</div>
+
+<!--Body section starts from here -->
+<div class="bodytxt">
+		
+	
+	<section>
+			<article class="art1">
+				<header><h2 class="arth2">IBM ROADRUNNER:</h2></header>
+				<!-- the following information is coppied from: http://en.wikipedia.org/wiki/IBM_Roadrunner-->
+				<p>Roadrunner was a supercomputer built by IBM for the Los Alamos National Laboratory in New Mexico, USA. The US$100-million Roadrunner was designed for a peak performance of 1.7 petaflops. It achieved 1.026 petaflops on May 25, 2008 to become the world's first TOP500 Linpack sustained 1.0 petaflops system.[2][3]
+
+In November 2008, it reached a top performance of 1.456 petaflops, retaining its top spot in the TOP500 list.<img class="wraptxt" src="image/roadimg1.jpg" alt="Super computer" width="300" height="200" >[4] It was also the fourth-most energy-efficient supercomputer in the world on the Supermicro Green500 list, with an operational rate of 444.94 megaflops per watt of power used. The hybrid Roadrunner design was then reused for several other energy efficient supercomputers.[5] Roadrunner was decommissioned by Los Alamos on March 31, 2013.[6] In its place, Los Alamos uses a supercomputer called Cielo, which was installed in 2010. Cielo is smaller and more energy efficient than Roadrunner, and cost $54 million.[6].<br><br>
+Overview[edit]
+IBM built the computer for the U.S. Department of Energy's (DOE) National Nuclear Security Administration.[7][8] It was a hybrid design with 12,960 IBM PowerXCell 8i[9] and 6,480 AMD Opteron dual-core processors[10] in specially designed blade servers connected by Infiniband. The Roadrunner used Red Hat Enterprise Linux along with Fedora[11] as its operating systems and was managed with xCAT distributed computing software. It also used the Open MPI Message Passing Interface implementation.[12]
+
+Roadrunner occupied approximately 296 server racks[13] which covered 560 square metres (6,000 sq ft)[14] and became operational in 2008. It was decommissioned March 31, 2013.[13] The DOE used the computer for simulating how nuclear materials age in order to predict whether the USA's aging arsenal of nuclear weapons are both safe and reliable. Other uses for the Roadrunner included the science, financial, automotive and aerospace industries.
+
+<span class="short">Read more...</span>
+				<br><br><span class='long'>
+Hybrid design[edit]
+Roadrunner differed from other contemporary supercomputers because it was the first hybrid supercomputer.[13] Previous supercomputers only used one processor architecture, since it was easier to design and program for. To realize the full potential of Roadrunner, all software had to be written specially for this hybrid architecture. The hybrid design consisted of dual-core Opteron server processors manufactured by AMD using the standard AMD64 architecture. Attached to each Opteron core is a PowerXCell 8i processor manufactured by IBM using Power Architecture and Cell technology. As a supercomputer, the Roadrunner was considered an Opteron cluster with Cell accelerators, as each node consists of a Cell attached to an Opteron core and the Opterons to each other.[15]
+
+<br><br>Development[edit]
+Roadrunner was in development from 2002 and went online in 2006. Due to its novel design and complexity it was constructed in three phases and became fully operational in 2008. Its predecessor was a machine also developed at Los Alamos named Dark Horse.[16] This machine was one of the earliest hybrid architecture systems originally based on ARM and then moved to the Cell processor. It was entirely a 3D design, its design integrated 3D memory, networking, processors and a number of other technologies.
+
+<br><br>Phase 1[edit]
+The first phase of the Roadrunner was building a standard Opteron based cluster, while evaluating the feasibility to further construct and program the future hybrid version. This Phase 1 Roadrunner reached 71 teraflops and was in full operation at Los Alamos National Laboratory in 2006.
+
+<br><br>Phase 2[edit]
+Phase 2 known as ÒAAISÓ (Advanced Architecture Initial System) included building a small hybrid version of the finished system using an older version of the Cell processor. This phase was used to build prototype applications for the hybrid architecture. It went online in January 2007.
+
+<br><br>Phase 3[edit]
+The goal of Phase 3 was to reach sustained performance in excess of 1 petaflops. Additional Opteron nodes and new PowerXCell processors were added to the design. These PowerXCell processors are five times as powerful as the Cell processors used in Phase 2. It was built to full scale at IBMÕs Poughkeepsie, New York facility,[1] where it broke the 1 petaflops barrier during its fourth attempt on May 25, 2008. The complete system was moved to its permanent location in New Mexico in the summer of 2008.[1]
+				
+				</span>
+				
+	<!--<p><h4s>Henry Markram: A brain in a supercomputer</h4>
+				<iframe src="http://embed.ted.com/talks/henry_markram_supercomputing_the_brain_s_secrets.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				
+			</P>-->
+			</article></p> 
+			
+	
+	</section> 
+	
+	
+	</div>
+<!-- this the right side bar --> 
+<div class="right">
+	<!--Supercomputer side NAV bar starts here -->
+	 <div class ="right">
+		<nav> 
+				<ul><h4 class="hsubnavcom">Supercomputers</h4>
+						
+					<li>    <a href="ibmroadrunner.html">IBM Roadrunner</a> </li>
+					<li>	<a href="IBMsequoia.html">IBM Sequoia</a> 	</li>
+					<li>	<a href="crayinc.html">Cray Inc</a> 		</li>
+					<li>	<a href="Jaguar.html">Jaguar</a>		</li>
+					<li>	<a href="titan.html">Titan</a>			</li>
+					<li>	<a href="tianhe_I.html">Tianhe-I</a> 		</li>
+					<li>	<a href="tianhe_2.html ">Tianhe-2 </a> 		</li>
+					<li>	<a href="kcomputer.html">K computer</a>		</li>
+					<li>	<a href="mira.html">IBM Mira</a>		</li>
+					<li>	<a href="supermuc.html"> SuperMUC</a>		</li>
+					
+					       
+					 
+				</ul>
+		</nav>
+	</div>
+	
+	<div class="right2"><h4>Conscious Mind' quotes: #1 '</h4>
+	
+	<p>"How many people, families, and nations were saved and protected due to the Conscious Mind, and how many were ruined due to an absence of it?!" 
+	
+	Abu Ubayd
+	</p>
+	</div>
+	<div class="right3">news flash</div>
+		
+</div>
+
+<!-- Side bar *** ENDs *** here -->
+
+ 
+<!--  this is where the footer start for the page --> 
+	<div class="footer">
+	
+		<div class="nav"> 
+			<a href="../index.html">Home</a>      |
+			<a href="../supercom/supercom.html">Supercomputers </a>|
+			<a href="../history/comhistory.html">History</a> |
+			<a href="../about_this_site/about_this_site.html">about the site</a> |
+			<a href="../contact/contact.html">Contact Us</a>  |
+			<a href="../other_links/otherlinks.html">Other Links</a> 
+		 </div>
+		 
+		 
+		<div class="footer2">
+		
+			<div class="quicklink">
+				<h4>Quick Link</h4>
+				<ul>	
+					<li>    <a href="ibmroadrunner.html">IBM Roadrunner</a> </li>
+					<li>	<a href="IBMsequoia.html">IBM Sequoia</a> 	</li>
+					<li>	<a href="crayinc.html">Cray Inc</a> 		</li>
+					<li>	<a href="Jaguar.html">Jaguar</a>		</li>
+					<li>	<a href="titan.html">Titan</a>			</li>
+					<li>	<a href="tianhe_I.html">Tianhe-I</a> 		</li>
+					<li>	<a href="tianhe_2.html ">Tianhe-2 </a> 		</li>
+					<li>	<a href="kcomputer.html">K computer</a>		</li>
+					<li>	<a href="mira.html">IBM Mira</a>		</li>
+					<li>	<a href="supermuc.html"> SuperMUC</a>		</li>
+					
+				</ul> 
+		
+			</div>
+				
+			<div class="askquestion">		
+				<h4>F&amp;Q</h4>
+				<ul>
+					<li> <a href="http://www.computerhope.com/jargon/s/supercom.htm" target="_blank"> what is Super Computer... </a>   </li> 
+					<li> <a href="http://computer.howstuffworks.com/supercomputers-used-for.htm" target="_blank"> what is super Computer used for... </a>    </li>
+					<li> <a href="http://mason.gmu.edu/~tbell5/page4.html" target="_blank"> Types of Supper Computers...  </a>   </li>
+					<li> <a href="http://www.computerhope.com/jargon/s/supercom.htm" target="_blank"> How Super Computer work... </a>   </li>
+					<li> <a href="http://wiki.answers.com/Q/Who_uses_supercomputers?#slide=1" target="_blank"> Who uses Super Computer... </a>   </li>
+					<li> <a href="http://www.dnaindia.com/scitech/report-ibm-starts-rolling-out-watson-supercomputer-in-africa-1959727" target="_blank"> Update on Super Computer... </a>   </li>
+						
+				</ul>
+		
+		
+		
+				
+			</div>
+		
+			<div class="contact">
+				<h4>Contact Us</h4>
+						<form class="form">
+						  
+									<label for="name">Full Name</label>
+									<input type="text" name="name" id="name" />				       
+							  
+									<label for="email">E-mail</label>
+									<input type="text" name="email" id="email" />				         
+							
+									<label for="subject">Subject</label>
+									<input type="text" name="subject" id="subject" />
+		
+							
+									<label for="subject">Enter your message</label>
+									<textarea name="text"></textarea><br/>
+									
+									<input type="submit" value="Send" />
+							
+						
+						</form>	
+			</div>
+		
+			
+		</div>
+		 
+		  
+	
+</div>
+<!-- Footer *** ENDs *** here --> 
+
+
+
+
+
+<!-- Copyright --> 
+<div class="copyright">
+ <p>Copyright© 2014 khanz21 LSBU</p>
+</div>
+<!-- copyright *** ENDs *** here --> 
+
+
+</body>
+</html>

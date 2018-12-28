@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>The Super Computer</title>
+				<script src="javascript/switchcss.js"></script>
+				<link rel="stylesheet" href="css/css1.css" title="Style1">  
+				<link rel="alternate stylesheet" href="css/css2.css" title="Style2">	
+				<link rel="stylesheet" href="slideshow/slideshow.css" />
+				<link rel="stylesheet reade more" href="javascript/readmore.js" title="readmore"> 
+				<script src="javascript/jquery-1.9.1.min.js"></script>
+				
+	
+<script>
+
+$(document).ready(
+  function () {
+    $("span.short").click(
+      function() {
+        $(this).siblings().show( 800);
+      }
+    );
+    $("span.long").click(
+      function() {
+        $(this).hide( 800);
+      }
+    );
+    $("span.long").hide();
+  }
+);
+</script>						
+	</head>
+
+<body>
+<div class="mbody">
+<div class="time"<p>Hello. You arrived at this page at
+<script>
+  document.write( new Date() + ".");
+</script> </p></div>
+
+<div id= "switchcss">
+	<ul>
+		<li class="css1"><a href="#" onclick="setActiveStyleSheet('Style1')">Style One</li></a>
+		<li class="css2"><a href="#" onclick="setActiveStyleSheet('Style2')">Style Two</li></a>
+		
+	</ul>
+
+</div> 
+
+	<div class="head"> 
+		<div class="logo">
+			<img src="image/logo.jpg" width="100" height="100">
+				
+		</div>
+		<div class="headertxt">
+			<p class="contd"><span style="color:purple">Contact LSBU further info:<br>Tel: 0800 923 8888 <br> Email:</span><a href="">khanz21@lsbu.ac.uk </a></p> 
+		</div>
+		
+		
+	</div> 
+
+	
+	
+	<div class ="navcon">
+		<nav class="nav">
+				<ul>
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="supercom/supercom.html">Super Computers
+				  
+				  
+				  <ul>
+							<li>   	 <a href="supercom/ibmroadrunner.html">IBM Roadrunner</a> </li>
+							<li>	<a href="supercom/IBMsequoia.html">IBM Sequoia</a> 	</li>
+							<li>	<a href="supercom/crayinc.html">Cray Inc</a> 		</li>
+							<li>	<a href="supercom/Jaguar.html">Jaguar</a>		</li>
+							<li>	<a href="supercom/titan.html">Titan</a>			</li>
+							<li>	<a href="supercom/tianhe_I.html">Tianhe-I</a> 		</li>
+							<li>	<a href="supercom/tianhe_2.html ">Tianhe-2 </a> 		</li>
+							<li>	<a href="supercom/kcomputer.html">K computer</a>		</li>
+							<li>	<a href="supercom/mira.html">IBM Mira</a>		</li>
+							<li>	<a href="supercom/supermuc.html"> SuperMUC</a>		</li>
+					
+					
+				</ul>
+				  </a>
+
+				  
+				  </li>
+				  <li><a href="history/comhistory.html">History</a></li>
+				  <li><a href="about_this_site/about_this_site.html">About this site</a></li>
+				  <li><a href="contact/contact.html">Contact Us</a></li>
+				  <li><a href="other_links/otherlinks.html">Other Links</a></li>
+				
+				</ul>
+		</nav>
+	</div>
+
+	
+	<div class="bodytxt">
+		
+	<div class='slides'>
+	<span id="sl_play" class="sl_command">&nbsp;</span>
+	<span id="sl_pause" class="sl_command">&nbsp;</span>
+	<span id="sl_i1" class="sl_command sl_i">&nbsp;</span>
+	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
+	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
+	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
+	
+	<section id="slideshow">
+		
+		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
+		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
+		
+		<div class="container">
+			<div class="c_slider"></div>
+			<div class="slider">
+				<figure>
+					<img src="slideshow/img/mira.jpg" alt="" width="550" height="310" />
+					<figcaption>Mira, is a Blue Gene/Q-based system housed at Argonne National Laboratory (ANL) is now the fifth-fastest system in the world...</figcaption>
+				</figure><!--
+				--><figure>
+					<img src="slideshow/img/Jaguar1.jpg" alt="" width="550" height="310" />
+					<figcaption>Jaguar was a petascale supercomputer built by Cray at Oak Ridge National Laboratory (ORNL) in Oak Ridge</figcaption>
+				</figure><!--
+				--><figure>
+					<img src="slideshow/img/Cray_XK6supercomputer.png" alt="" width="550" height="310" />
+					<figcaption>Cray Inc. is an American supercomputer manufacturer based in Seattle, Washington.[1] The company's predecessor,</figcaption>
+				</figure><!--
+				--><figure>
+					<img src="slideshow/img/titan-supercomputer-tesla-gpu.jpg" alt="" width="550" height="310" />
+					<figcaption>Titan is an upgrade of Jaguar, a previous supercomputer at Oak Ridge...</figcaption>
+				</figure>
+			</div>	
+	</section>
+		</div>
+	
+	<section>
+			<article class="art1">
+				<header><h2 class="arth2">Supercomputer:</h2></header>
+				
+				<p> supercomputer is a computer at the frontline of contemporary processing capacity – particularly speed of calculation which can happen at speeds of nanoseconds.
+				Supercomputers were introduced in the 1960s, made initially and, for decades, primarily by Seymour Cray at Control Data Corporation (CDC),<!--<img class="wraptxt" src="image/original.png" alt="Super computer" width="300" height="200" >-->   Cray Research and subsequent companies bearing his name or monogram. While the supercomputers of the 1970s used only a few processors, in the 1990s machines with thousands of processors began to appear and, by the end of the 20th century, massively parallel supercomputers with tens of thousands of "off-the-shelf" processors were the norm.[2][3] As of November 2013, China's Tianhe-2 supercomputer is the fastest in the world at 33.86 petaFLOPS, or 33.86 quadrillion floating point operations per second. 
+				<span class="short">Read more...</span>
+				<span class='long'>
+				Systems with massive numbers of processors generally take one of two paths: In one approach (e.g., in distributed computing), a large number of discrete computers (e.g., laptops) distributed across a network (e.g., the internet) devote some or all of their time to solving a common problem; each individual computer (client) receives and completes many small tasks, reporting the results to a central server which integrates the task results from all the clients into the overall solution.[4][5] In another approach, a large number of dedicated processors are placed in close proximity to each other (e.g. in a computer cluster); this saves considerable time moving data around and makes it possible for the processors to work together (rather than on separate tasks), for example in mesh and hypercube architectures.
+				
+				The use of multi-core processors combined with centralization is an emerging trend; one can think of this as a small cluster (the multicore processor in a smartphone, tablet, laptop, etc.) that both depends upon and contributes to the cloud.[6][7]
+				Supercomputers play an important role in the field of computational science, and are used for a wide range of computationally intensive tasks in various fields, including quantum mechanics, weather forecasting, climate research, oil and gas exploration, molecular modeling (computing the structures and properties of chemical compounds, biologicalmacromolecules, polymers, and crystals), and physical simulations (such as simulations of the early moments of the universe, airplane and spacecraft aerodynamics, the detonation of nuclear weapons, and nuclear fusion). Throughout their history, they have been essential in the field of cryptanalysis.[8]
+				</span>
+				
+	<p><h4s>Henry Markram: A brain in a supercomputer</h4>
+				<iframe src="http://embed.ted.com/talks/henry_markram_supercomputing_the_brain_s_secrets.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				
+			</P>
+			</article></p> 
+			
+	
+	</section> 
+	
+	
+	</div>
+<!-- this the right side bar --> 
+	<div class="right">
+	<div class="right1"><h4>IBM packs 128TB of flash into brain-simulating supercomputer</h5> <img class="sideimage1" src="image/flash.jpg" width="150px" height="100px">
+	<article><p class="sansserif">To accommodate all the data needed to model the 70 million neurons that make up a mouse brain, Big Blue is using scads of the same type of memory used for PC solid-state drives.
+	
+	<a  class="sidelink"href="http://news.cnet.com/8301-11386_3-57588887-76/ibm-packs-128tb-of-flash-into-brain-simulating-supercomputer/" target="_blank">Continue... </a></p></article>
+		
+		</div>
+		<div class="right2"><h4>Conscious Mind' quotes: #1 '</h4>
+	
+	<p>"How many people, families, and nations were saved and protected due to the Conscious Mind, and how many were ruined due to an absence of it?!" 
+	
+	Abu Ubayd</p></div>
+		<div class="right3">news flash</div>
+		
+		</div>
+
+<!-- Side bar *** ENDs *** here -->
+
+ 
+<!--  this is where the footer start for the page --> 
+	<div class="footer">
+	
+		<div class="nav"> 
+		      <a href="../index.html">Home</a> |
+		      <a href="../supercom/supercom.html">Supercomputers </a>|
+		      <a href="../history/comhistory.html">History</a> |
+		      <a href="../about_this_site/about_this_site.html">about the site</a> |
+		      <a href="../contact/contact.html">Contact Us</a>  |
+		      <a href="otherlinks.html">Other Links</a>  
+		 </div>
+		 
+		 
+		<div class="footer2">
+		
+			<div class="quicklink">
+				<h4>Quick Link</h4>
+				<ul>	
+					<li>   	 <a href="supercom/ibmroadrunner.html">IBM Roadrunner</a> </li>
+					<li>	<a href="supercom/IBMsequoia.html">IBM Sequoia</a> 	</li>
+					<li>	<a href="supercom/crayinc.html">Cray Inc</a> 		</li>
+					<li>	<a href="supercom/Jaguar.html">Jaguar</a>		</li>
+					<li>	<a href="supercom/titan.html">Titan</a>			</li>
+					<li>	<a href="supercom/tianhe_I.html">Tianhe-I</a> 		</li>
+					<li>	<a href="supercom/tianhe_2.html ">Tianhe-2 </a> 	</li>
+					<li>	<a href="supercom/kcomputer.html">K computer</a>	</li>
+					<li>	<a href="supercom/mira.html">IBM Mira</a>		</li>
+					<li>	<a href="supercom/supermuc.html"> SuperMUC</a>		</li>
+				</ul> 
+		
+			</div>
+				
+			<div class="askquestion">		
+				<h4>F&amp;Q</h4>
+				<ul>
+					<li> <a href="http://www.computerhope.com/jargon/s/supercom.htm" target="_blank"> what is Super Computer... </a>   </li> 
+					<li> <a href="http://computer.howstuffworks.com/supercomputers-used-for.htm" target="_blank"> what is super Computer used for... </a>    </li>
+					<li> <a href="http://mason.gmu.edu/~tbell5/page4.html" target="_blank"> Types of Supper Computers...  </a>   </li>
+					<li> <a href="http://www.computerhope.com/jargon/s/supercom.htm" target="_blank"> How Super Computer work... </a>   </li>
+					<li> <a href="http://wiki.answers.com/Q/Who_uses_supercomputers?#slide=1" target="_blank"> Who uses Super Computer... </a>   </li>
+					<li> <a href="http://www.dnaindia.com/scitech/report-ibm-starts-rolling-out-watson-supercomputer-in-africa-1959727" target="_blank"> Update on Super Computer... </a>   </li>
+						
+				</ul>
+		
+		
+		
+				
+			</div>
+		
+			<div class="contact">
+				<h4>Contact Us</h4>
+						<form class="form" action='php/form2mail.php' method='post'>
+						  
+									<label for="name">Full Name</label>
+									<input type="text" name='firstname'" id="name" size='40' />				       
+							  
+									<label for="email">E-mail</label>
+									<input type="text" name='email' size='40' id="email" />				         
+							
+									<label for="subject">Subject</label>
+									<input type="text" name="subject" id="subject" />
+		
+							
+									<label for="subject">Enter your message</label>
+									<textarea  name='query'></textarea><br/>
+									
+									<input type="submit" value="Send" />
+							
+						
+						</form>	
+			</div>
+		
+			
+		</div>
+		 
+		  
+	
+	</div>
+<!-- Footer *** ENDs *** here --> 
+
+
+ 
+
+
+<!-- Copyright --> 
+<div class="copyright">
+ <p>Copyright© 2014 khanz21 LSBU</p>
+</div>
+<!-- copyright *** ENDs *** here --> 
+
+
+</body>
+</html>

@@ -1,0 +1,443 @@
+body{ 
+
+    background:url(../image/head.jpg) repeat-x  transparent ;
+    margin: auto;
+    position:relative;
+}
+
+p{font-family:"Times New Roman", Times, serif}
+p.serif{font-family:"Times New Roman",Times,serif;}
+p.sansserif{font-family:Arial,Helvetica,sans-serif;}
+p.sserif{font-family:Sans-serif ;
+p.color: rgba(11, 0, 0, 0.6);
+
+} 
+
+/* This section is for main body style */
+.mbody {background-color:#F3F4F2 ;
+    width: 800px;
+    margin: auto ;
+    padding: 50px;
+    margin-top: -40px;
+    margin-bottom:-60px;
+    box-shadow: 0px 70px 50px #888888;
+}
+.time {float: left;
+	  display: inline; 
+	  margin-top: -4px;
+	  margin-bottom: -17px }
+#switchcss {  float: right; 
+			 display: block;
+			  padding: 0px;
+			  margin-top: -20px;
+			  margin-bottom: -17px;
+	}
+	
+#switchcss > ul>li {
+	list-style-type:none;
+	list-style: none;
+	display: inline; 
+	overflow:hidden;
+	padding: 0px;
+	margin:auto; 
+	 }
+	
+.css1 { background: #E0E0E0;
+		}	
+		
+		
+.css1, .css2 {
+    border-bottom: 0px solid;
+    border-radius:3px;
+    box-shadow: 0px 0px 10px #888888;
+    
+    }		
+		
+.css2 { background: #FF6633;
+		}	
+
+/*This is the header section */   
+            
+
+.head{
+    background:url(../image/llnl-supercomputing-3.jpg ) no-repeat 0px;
+    display:block;
+    width:inherit;
+    margin: auto;
+    padding-top: 27px;
+    padding-bottom: inherit;
+    overflow: auto;
+	clear: both;
+            
+            }        
+            
+
+ .logo{
+    display: inline;	
+    width: 100px;
+    padding:5px;
+    margin:auto;
+    border-radius:50px;
+  
+             
+            }
+.headertxt{ 
+    background: #FF6633;
+    display:inline-block;
+    float: right;
+    padding:5px;
+    margin:auto;
+    text-decoration: blink;
+
+    }
+
+
+
+
+/*this is the nav and the links section */
+.navcon{
+    background-color:#E0E0E0;
+    width: 100%;
+    margin: auto;
+    border-bottom: 0px solid;
+    border-radius:3px;
+    box-shadow: 0px 0px 10px #888888;
+    position: relative;
+    z-index: 10; /* this allowed the button to show over the slide */     
+        
+        
+    }   
+.navcon  nav  ul 
+{  
+    padding: 5px;
+    margin: auto;
+    list-style-type:none;
+    list-style: none;        
+    overflow:hidden;  }
+
+.navcon nav ul li
+{
+    float:left;    }
+
+
+
+.navcon > nav > ul > li:hover a {
+    color: #FF6633;
+    z-index: 0.9;
+    
+    }
+
+
+.navcon  nav  ul  li 
+{
+    text-align: center;
+    font-size: 16px;
+    display:block;
+    width: 115px;
+   
+}
+
+.navcon  nav ul li a  {
+    display: block; 
+    color: #757575 ; }
+     
+
+     
+     
+/* Drop down Manue */
+.navcon  >nav > ul > li >ul {
+    list-style-type: none;
+    padding-top: 6px;
+    display: none;
+    border-top: 6px solid #E5E5E5;
+    border-bottom: 0px solid #575f6a;
+    border-radius:6px;
+    background: rgba(216, 209, 209, 0.87);
+     
+
+	}
+        
+   
+.navcon nav ul li:hover ul  {
+  clear: both;
+  display: block;
+  position: absolute;
+
+  }
+  
+        
+.navcon nav ul li:hover ul li {
+    
+  float: none;    }                 /* this allows the text to drop down*/
+        
+         
+.navcon > nav > ul > li > ul > li:hover a {
+    color: #987575 ; }
+        
+
+
+
+
+.navcon > nav > ul >li >ul > li {
+    padding:6px;
+    width: 130px;
+    margin: auto
+}
+
+.navcon nav ul li ul a{
+    /*background: rgba(216, 209, 209, 0.39) ; #DFD9D9*/
+    text-align: left;
+    display: block;
+}
+
+.slides{position: static; }
+
+
+a:link {color: #757575   ;}      /* unvisited link */
+a:visited {color:#000000;} /* visited link */
+a:hover {color:#757575 ;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+    a:link {text-decoration:none ;}
+    a:visited {text-decoration:none;}
+    a:hover {text-decoration:underline;}
+    a:active {text-decoration:underline;}  
+        
+/* this is where ---Navigation bar EDN---------*/
+
+
+
+/* Body Section starts here */
+.bodytxt{
+    /*display: inline-block;*/
+    float: left; 
+    width: 570px;
+    padding:5px;
+    margin:auto;
+    
+}
+
+.short {
+
+background-image:url('image/more.jpg');
+  background:rgb(192,192,192);
+  width: 100px; 
+  display: right ; 
+  border:0px solid;
+  border-radius:2px;
+  margin: 3px;
+  
+}
+
+.wraptxt {float: right;
+		  margin: 10px;
+		  margin-left: 10px;
+		  margin-bottom: 10px;}
+
+
+.slideshow {clear:left;
+            Xwidth:640px;
+            }
+
+.art1{ background: none;
+    width:560px;
+    float: left; 
+    color: #888888 ;
+    
+    }
+
+.arth2{color: #686868;  }
+/* This is where the body section ends */
+
+/* Right side div for add and other navigation for the page  */
+
+.right{
+    
+    background-color:#E0E0E0; 
+    padding:13px;
+    float: right;
+    width: 170px;
+    margin:10px;
+    border-bottom: 0px solid;
+    border-radius:20px;
+    overflow: auto;
+    position: relative;
+    
+    
+    
+    	
+    
+}
+/*this is the side manu style for supercomputer page */
+
+
+.right > ul{ 
+	 list-style-type: none;
+	 float:left;
+	 overflow: hidden;
+	 background: #E0E0E0;
+	 border: 6px;
+	 border-radius: 5px;
+	
+	 
+	 
+	 }
+.right >  nav>  ul> li {clear: both;
+    text-align: left;
+    font-size: 15px;
+    list-style-type: none;
+    ist-style: none;        
+    overflow:hidden;
+    clear: left;
+    
+    
+   
+}
+.hsubnavcom{text-align: left;
+	     color:#FF6633;
+	     margin-bottom: 3px;
+	     box-shadow: 20px 10px 10px #888888;} /*gives shadows around the header of sub maue nav bar for supercomputer */
+
+.right>nav> ul> li {
+    display: block; 
+    color: #FF6633;
+    box-shadow: 4px 5px 7px #888888; /* this shadow box gave the buttons shadown */
+    } 
+    
+.right > nav > ul > li{  padding:3px;
+		    width: 130px;
+		    margin: auto;
+		    list-style-type:none;
+		    list-style: none;        
+		    overflow:hidden;}
+		    
+.right > nav> ul li:hover {background: darkgray;
+}
+.right > nav> ul> li > a{ width: 150px;
+		float:none;
+		color: #757575;
+		 text-align: left;
+                 display: block;}
+		
+.right > nav > ul li:hover a {
+    color: #987575 ;
+   }
+        
+		
+		
+		
+/* this is the right site link */
+.right	a:link {color: blue   ;}      /* unvisited link */
+/*.right  a:visited {color:red;} /* visited link */
+.right	a:hover {color:orange ;}  /* mouse over link */
+.right	a:active {color:green;}  /* selected link */
+
+
+
+
+/* this is where my footer start */
+.footer{
+    clear:both;
+    display: block;
+    background-color:#E0E0E0   ;
+    padding: 10px;
+    margin: auto;
+    border-bottom: 0px solid;
+    border-radius:8px;
+    overflow: auto;
+
+      }
+
+	    
+	  
+.footer footernav{
+    display: inline;
+    width:250px;
+    height: auto;
+    margin:auto;
+}
+.footernav  a.link  {color: blue;}
+.footernav  a.hover  {color: black;}
+
+.footer footer2{
+    width:750px;
+    margin:auto;
+    border-bottom: 9px solid;
+    border-radius:8px;
+
+
+
+		}
+	  
+.quicklink{
+    float:left;
+    width:200px;
+    margin:auto;
+
+}
+
+.quicklink ul { 
+}
+
+.quicklink ul li {
+    list-style-image:url('image/icone.png');
+    padding-left: 3px;
+    z-index:auto;
+    
+    
+    
+   
+
+}
+
+ .quicklink , .askquestion, .right { 
+    
+    font-family: Comic Sans MS, "cursive", sans-serif;
+    list-style-position: outside;
+    } /*This is the font used for the side right side bar and the botton footer2*/
+
+.contact{ 
+    float:right;
+    width:250px;
+    margin:auto;
+    
+}
+
+/* contact from starts here  */
+.contact ul li { 
+    padding-left: 10px;
+
+}
+
+.form input {
+    display: table-cell;	
+}	
+.form label {
+    display: table-cell;
+}	
+
+/* contact from ends here  */
+
+.askquestion{
+    float:left;
+    width:200px;
+    margin:auto;
+
+}
+
+.footer2        a:link {color: black   ;}      /* unvisited link */
+.footer2	a:visited {color:#300000;} /* visited link */
+.footer2	a:hover {color:#757575 ;}  /* mouse over link */
+.footer2	a:active {color:orange;}  /* selected link */	
+	
+/*this the copy right section*/
+	
+.copyright{
+    width: 800px;
+    margin: auto ;
+    padding-top:4px;
+    font-size: 12px;
+	}
+	
+
+

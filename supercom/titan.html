@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>The Super Computer</title>
+				<script src="../javascript/switchcss.js"></script>
+				<link rel="stylesheet" href="../css/css1.css" title="Style1">  
+				<link rel="alternate stylesheet" href="../css/css2.css" title="Style2">	
+				<link rel="stylesheet" href="../slideshow/slideshow.css" />
+				<link rel="stylesheet reade more" href="../javascript/readmore.js" title="readmore"> 
+				<script src="../javascript/jquery-1.9.1.min.js"></script>
+				
+	
+<script>
+
+$(document).ready(
+  function () {
+    $("span.short").click(
+      function() {
+        $(this).siblings().show( 800);
+      }
+    );
+    $("span.long").click(
+      function() {
+        $(this).hide( 800);
+      }
+    );
+    $("span.long").hide();
+  }
+);
+</script>						
+	</head>
+
+<body>
+<div class="mbody">
+<div class="time"<p>Hello. You arrived at this page at
+<script>
+  document.write( new Date() + ".");
+</script> </p></div>
+
+<div id= "switchcss">
+	<ul>
+		<li class="css1"><a href="#" onclick="setActiveStyleSheet('Style1')">Style One</li></a>
+		<li class="css2"><a href="#" onclick="setActiveStyleSheet('Style2')">Style Two</li></a>
+		
+	</ul>
+
+</div> 
+
+	<div class="head"> 
+		<div class="logo">
+			<img src="../image/logo.jpg" width="70" height="70">
+		</div>
+		<div class="headertxt">
+			<p class="contd"><span style="color:purple">Contact us for further info:<br>Tel: 0207 414 645 <br> Email:</span><a href="">supercom@hotmail.com </a></p> 
+		</div>
+		
+		
+	</div> 
+
+	
+	
+	<div class ="navcon">
+		<nav class="nav">
+				<ul>
+				  <li><a href="../index.html">Home</a></li>
+				  
+				  
+				  <li><a href="supercom.html">Supercomputers
+				  
+				  
+					<ul>
+					<li>    <a href="ibmroadrunner.html">IBM Roadrunner</a> </li>
+					<li>	<a href="IBMsequoia.html">IBM Sequoia</a> 	</li>
+					<li>	<a href="crayinc.html">Cray Inc</a> 		</li>
+					<li>	<a href="Jaguar.html">Jaguar</a>		</li>
+					<li>	<a href="titan.html">Titan</a>			</li>
+					<li>	<a href="tianhe_I.html">Tianhe-I</a> 		</li>
+					<li>	<a href="tianhe_2.html ">Tianhe-2 </a> 		</li>
+					<li>	<a href="kcomputer.html">K computer</a>		</li>
+					<li>	<a href="mira.html">IBM Mira</a>		</li>
+					<li>	<a href="supermuc.html"> SuperMUC</a>		</li>
+					
+					      
+				      </ul>
+				  </a>
+
+				  
+				  </li>
+				  <li><a href="../history/comhistory.html">History</a></li>
+				  <li><a href="../about_this_site/about_this_site.html">About this site</a></li>
+				  <li><a href="../contact/contact.html">Contact Us</a></li>
+				  <li><a href="../other_links/otherlinks.html">Other Links</a></li>
+				
+				</ul>
+		</nav>
+	</div>
+
+<!--Body section starts from here -->
+<div class="bodytxt">
+		
+	
+	<section>
+			<article class="art1">
+				<header><h2 class="arth2">TITAN:</h2></header>
+				<p><img class="wraptxt" src="image/titan.jpg" alt="Super computer" width="550px" height="200px" ></p>
+				<br><br><br><br><br><br><br><br><br><br><br>
+				<!-- the following information is coppied from: http://en.wikipedia.org/wiki/Titan_(supercomputer)-->
+				<p>Titan is a supercomputer built by Cray at Oak Ridge National Laboratory for use in a variety of science projects. Titan is an upgrade of Jaguar, a previous supercomputer at Oak Ridge, that uses graphics processing units (GPUs) in addition to conventional central processing units (CPUs). It is the first such hybrid to perform over 10 petaFLOPS. The upgrade began in October 2011, commenced stability testing in October 2012 and it became available to researchers in early 2013. The initial cost of the upgrade was US$60 million, funded primarily by the United States Department of Energy.
+
+
+<br><br>Its computing speed is the equivalent of performing 33,863 trillion calculations per second and is almost double the score achieved by the second most powerful machine: the American Titan supercomputer, which clocked in at 17.59 petaflop/s. 
+
+<br><br>Titan employs AMD Opteron CPUs in conjunction with Nvidia Tesla GPUs to improve energy efficiency while providing an order of magnitude increase in computational power over Jaguar. It uses 18,688 CPUs paired with an equal number of GPUs to perform at a theoretical peak of 27 petaFLOPS; in the LINPACK benchmark used to rank supercomputers' speed, it performed at 17.59 petaFLOPS. This was enough to take first place in the November 2012 list by the TOP500 organization, but Tianhe-2 overtook it on the June 2013 list.
+
+<br><br>Titan is available for any scientific purpose; access depends on the importance of <img class="wraptxt" src="image/220px-Cray_Technician_upgrading_Titan.jpg" alt="Super computer" width="220px" height="200px" >the project and its potential to exploit the hybrid architecture. Any selected code must also be executable on other supercomputers to avoid sole dependence on Titan. Six vanguard codes were the first selected. They dealt mostly with molecular scale physics or climate models, while 25 others queued behind them. The inclusion of GPUs compelled authors to alter their codes. The modifications typically increased the degree of parallelism, given that GPUs offer many more simultaneous threads than CPUs. The changes often yield greater performance even on CPU-only machines.
+
+<br><br><span class="short">Read more...</span>
+				<br><br><span class='long'>
+Development<br><br>
+Plans to create a supercomputer capable of 20 petaFLOPS at the Oak Ridge Leadership Computing Facility (OLCF) at Oak Ridge National Laboratory (ORNL) originated as far back as 2005, when Jaguar was built.[2] Titan will itself be replaced by an approximately 200 petaFLOPS system in 2016 as part of ORNL's plan to operate an exascale (1000 petaFLOPS to 1 exaFLOPS) machine by 2020.[2][3][4] The initial plan to build a new 15,000 square meter (160,000 ft2) building for Titan, was discarded in favor of using Jaguar's existing infrastructure.[5] The precise system architecture was not finalized until 2010, although a deal with Nvidia to supply the GPUs was signed in 2009.[6] Titan was first announced at the private ACM/IEEE Supercomputing Conference (SC10) on November 16, 2010, and was publicly announced on October 11, 2011, as the first phase of the Titan upgrade began.[3][7]
+
+
+<br><br>Jaguar had received various upgrades since its creation. It began with the Cray XT3 platform that yielded 25 teraFLOPS.[8] By 2008, Jaguar had been expanded with more cabinets and upgraded to the XT4 platform, reaching 263 teraFLOPS.[8] In 2009, it was upgraded to the XT5 platform, hitting 1.4 petaFLOPS.[8] Its final upgrades brought Jaguar to 1.76 petaFLOPS.[9]
+
+
+
+<br><br>Titan was funded primarily by the US Department of Energy through ORNL. Funding was sufficient to purchase the CPUs but not all of the GPUs so the National Oceanic and Atmospheric Administration agreed to fund the remaining nodes in return for computing time.[10][11] ORNL scientific computing chief Jeff Nichols noted that Titan cost approximately $60 million upfront, of which the NOAA contribution was less than $10 million, but precise figures were covered by non-disclosure agreements.[10][12] The full term of the contract with Cray included $97 million, excluding potential upgrades.[12]
+
+<br><br>The yearlong conversion began October 9, 2011.[13][14] Between October and December, 96 of Jaguar's 200 cabinets, each containing 24 XT5 blades (two 6-core CPUs per node, four nodes per blade), were upgraded to XK7 blades (one 16-core CPU per node, four nodes per blade) while the remainder of the machine remained in use.[13] In December, computation was moved to the 96 XK7 cabinets while the remaining 104 cabinets were upgraded to XK7 blades.[13] The system interconnect (the network over which CPUs to communicate with each other) was updated and the ORNL's external ESnet connection was upgraded from 10 Gbit/s to 100 Gbit/s.[13][15] The system memory was doubled to 584 TiB.[14] 960 of the XK7 nodes (10 cabinets) were fitted with a Fermi based GPU as Kepler GPUs were not then available; these 960 nodes were referred to as TitanDev and used to test code.[13][14] This first phase of the upgrade increased the peak performance of Jaguar to 3.3 petaFLOPS.[14] Beginning on September 13, 2012, Nvidia K20X GPUs were fitted to all of Jaguar's XK7 compute blades, including the 960 TitanDev nodes.[13][16][17] In October, the task was completed and the computer was finally christened Titan.[13]
+
+
+			</span>
+				
+
+	</P> 
+			</article></p> 
+			
+	
+	</section> 
+	
+	
+	</div>
+<!-- this the right side bar --> 
+<div class="right">
+	<!--Supercomputer side NAV bar starts here -->
+	 <div class ="right">
+		<nav> 
+				<ul><h4 class="hsubnavcom">Supercomputers</h4>
+						
+					<li>    <a href="ibmroadrunner.html">IBM Roadrunner</a> </li>
+					<li>	<a href="IBMsequoia.html">IBM Sequoia</a> 	</li>
+					<li>	<a href="crayinc.html">Cray Inc</a> 		</li>
+					<li>	<a href="Jaguar.html">Jaguar</a>		</li>
+					<li>	<a href="titan.html">Titan</a>			</li>
+					<li>	<a href="tianhe_I.html">Tianhe-I</a> 		</li>
+					<li>	<a href="tianhe_2.html ">Tianhe-2 </a> 		</li>
+					<li>	<a href="kcomputer.html">K computer</a>		</li>
+					<li>	<a href="mira.html">IBM Mira</a>		</li>
+					<li>	<a href="supermuc.html"> SuperMUC</a>		</li>
+					
+							
+					       
+					 
+				</ul>
+		</nav>
+	</div>
+	
+	<div class="right2"><h4>Conscious Mind' quotes: #1 '</h4>
+	
+	<p>"How many people, families, and nations were saved and protected due to the Conscious Mind, and how many were ruined due to an absence of it?!" 
+	
+	Abu Ubayd
+	</p>
+	</div>
+	<div class="right3">news flash</div>
+		
+</div>
+
+<!-- Side bar *** ENDs *** here -->
+
+ 
+<!--  this is where the footer start for the page --> 
+	<div class="footer">
+	
+		<div class="nav"> 
+			<a href="../index.html">Home</a>      |
+			<a href="../supercom/supercom.html">Supercomputers </a>|
+			<a href="../history/comhistory.html">History</a> |
+			<a href="../about_this_site/about_this_site.html">about the site</a> |
+			<a href="../contact/contact.html">Contact Us</a>  |
+			<a href="../other_links/otherlinks.html">Other Links</a> 
+		 </div>
+		 
+		 
+		<div class="footer2">
+		
+			<div class="quicklink">
+				<h4>Quick Link</h4>
+				<ul>	
+					<li>    <a href="ibmroadrunner.html">IBM Roadrunner</a> </li>
+					<li>	<a href="IBMsequoia.html">IBM Sequoia</a> 	</li>
+					<li>	<a href="crayinc.html">Cray Inc</a> 		</li>
+					<li>	<a href="Jaguar.html">Jaguar</a>		</li>
+					<li>	<a href="titan.html">Titan</a>			</li>
+					<li>	<a href="tianhe_I.html">Tianhe-I</a> 		</li>
+					<li>	<a href="tianhe_2.html ">Tianhe-2 </a> 		</li>
+					<li>	<a href="kcomputer.html">K computer</a>		</li>
+					<li>	<a href="mira.html">IBM Mira</a>		</li>
+					<li>	<a href="supermuc.html"> SuperMUC</a>		</li>
+					
+				</ul> 
+		
+			</div>
+				
+			<div class="askquestion">		
+				<h4>F&amp;Q</h4>
+				<ul>
+					<li> <a href="http://www.computerhope.com/jargon/s/supercom.htm" target="_blank"> what is Super Computer... </a>   </li> 
+					<li> <a href="http://computer.howstuffworks.com/supercomputers-used-for.htm" target="_blank"> what is super Computer used for... </a>    </li>
+					<li> <a href="http://mason.gmu.edu/~tbell5/page4.html" target="_blank"> Types of Supper Computers...  </a>   </li>
+					<li> <a href="http://www.computerhope.com/jargon/s/supercom.htm" target="_blank"> How Super Computer work... </a>   </li>
+					<li> <a href="http://wiki.answers.com/Q/Who_uses_supercomputers?#slide=1" target="_blank"> Who uses Super Computer... </a>   </li>
+					<li> <a href="http://www.dnaindia.com/scitech/report-ibm-starts-rolling-out-watson-supercomputer-in-africa-1959727" target="_blank"> Update on Super Computer... </a>   </li>
+						
+				</ul>
+		
+		
+		
+				
+			</div>
+		
+			<div class="contact">
+				<h4>Contact Us</h4>
+						<form class="form">
+						  
+									<label for="name">Full Name</label>
+									<input type="text" name="name" id="name" />				       
+							  
+									<label for="email">E-mail</label>
+									<input type="text" name="email" id="email" />				         
+							
+									<label for="subject">Subject</label>
+									<input type="text" name="subject" id="subject" />
+		
+							
+									<label for="subject">Enter your message</label>
+									<textarea name="text"></textarea><br/>
+									
+									<input type="submit" value="Send" />
+							
+						
+						</form>	
+			</div>
+		
+			
+		</div>
+		 
+		  
+	
+</div>
+<!-- Footer *** ENDs *** here --> 
+
+
+
+
+
+<!-- Copyright --> 
+<div class="copyright">
+ <p>Copyright© 2014 khanz21 LSBU</p>
+</div>
+<!-- copyright *** ENDs *** here --> 
+
+
+</body>
+</html>

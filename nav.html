@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    
+<style>
+    
+  /* START NAV MENU */
+nav {
+  background-color:#2C5463;
+  height:40px;
+}
+ 
+ 
+nav ul {
+  font-family: Arial, Verdana;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ 
+nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+ 
+}
+ 
+nav li ul { 
+  display: none; 
+}
+ 
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 7px 15px 3px 15px;
+  background: #2C5463;
+  color: #ffffff;  
+  margin-left: 1px;
+  white-space: nowrap;
+  height:30px; /* Width and height of top-level nav items */
+  width:90px;
+  text-align:center;
+ 
+}
+ 
+nav ul li a:hover { 
+  background: #617F8A; 
+}
+ 
+nav li:hover ul {
+  display: block;
+  position: absolute;
+  height:30px;
+}
+ 
+nav li:hover li {
+  float: none;
+  font-size: 11px;
+ 
+}
+ 
+nav li:hover a { 
+  background: #3A464F; 
+  height:30px; /* Height of lower-level nav items is shorter than main level */
+}
+ 
+nav li:hover li a:hover { 
+  background: #95A9B1; 
+}
+
+
+
+
+
+
+ 
+nav ul li ul li a {
+    text-align:left; /* Top-level items are centered, but nested list items are left-aligned */
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</style>
+    
+    
+    
+    
+    
+</head>
+
+
+
+
+
+
+<body>
+    
+    
+    
+
+<nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About Us</a>
+        <ul>
+            <li><a href="/crew">Our Crew</a></li>
+            <li><a href="/history">Plumbing History</a></li>
+            <li><a href="/vision">Plumbing Vision</a></li>
+        </ul>
+      </li>
+      <li><a href="/products">Products</a>
+        <ul>
+            <li><a href="/pipes">Pipes</a></li>
+            <li><a href="/wrenches">Wrenches</a></li>
+            <li><a href="/solder">Soldering Tools</a></li>
+            <li><a href="/pbc">PVC Joints</a></li>
+            <li><a href="/sprockets">Spacely Sprockets</a></li>
+        </ul>
+      </li>
+      <li><a href="/services">Services</a>
+        <ul>
+            <li><a href="/visites">Site Visits</a></li>
+            <li><a href="/spot">Spot Welding</a></li>
+            <li><a href="/tig">TiG Welding</a></li>
+            <li><a href="/mig">MiG Welding</a></li>
+            <li><a href="/drain">Drain Service</a></li>
+        </ul>
+      </li>          
+      <li><a href="/contact">Contact</a>
+        <ul>
+            <li><a href="/email">Via Email</a></li>
+            <li><a href="/contact_form">Web Form</a></li>
+            <li><a href="/pigeon">Carrier Pigeon</a></li>
+        </ul>
+      </li>
+    </ul>
+</nav>
+
+</body>
+</html>

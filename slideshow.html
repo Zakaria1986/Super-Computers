@@ -1,0 +1,34 @@
+<html>
+<head>
+</head>
+ 
+<body>
+ 
+<div id="slideshow" example="width:500px;overflow:hidden;">
+<div id="slideshowimage" example="width:500px;overflow:hidden;">
+</div>
+<div id="slideshowcontrols" example="width:500px;overflow:hidden;">
+<a onClick="alterimage(-1);">Prev</a>
+<a onClick="alterimage(1);">Next</a>
+</div>
+</div>
+ 
+<script type="text/javascript">
+var images = new Array;
+images[1] = "http://www.electricprism.com/aeron/slideshow/examples/1.jpg";
+images[2] = "http://www.phpf1.com/images/maxSlideShow/slideshow.jpg";
+images[3] = "http://www.welie.com/patterns/images/slideshow-pro.png";
+images[4] = "http://www.vertigo.com/images/detail/SlideShowDetail-1.jpg";
+images[5] = "http://www.welie.com/patterns/images/slideshow-picasaweb.png";
+var presentimage = 1;
+function alterimage(alter){
+alert(alter);
+}
+</script>
+ 
+</body>
+</html>
+
+
+
+
